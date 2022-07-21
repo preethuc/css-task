@@ -1,0 +1,74 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+body {
+  background-color: beige;
+  color: royalblue;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 16px;
+  font-weight: normal;
+  padding: 10px;
+  margin: 10px;
+  /* font: 20px, normal, Arial, Helvetica, sans-serif; */
+}
+h1 {
+  color: black;
+  text-align: center;
+  text-transform: uppercase;
+  padding: 10px;
+}
+p {
+  text-align: left;
+  padding: 15px;
+}
+/* pseudo element */
+p::first-letter {
+  font-size: 1.5em;
+}
+.container {
+  background-color: rgb(245, 220, 239);
+
+  /* border-right: 5px rgb(255, 0, 85) solid;
+  border-left: 5px rgb(255, 0, 85) solid;
+  border-top: 5px rgb(255, 0, 85) solid;
+  border-bottom: 5px rgb(255, 0, 85) solid; */
+  border: 5px rgb(255, 0, 85) solid;
+  
+}
+.box-1 p,
+.box-2 p {
+  text-decoration: underline;
+  text-indent: 10px;
+  /* text-shadow: 2px 2px 2px rebeccapurple; */
+}
+.App-form {
+  margin: 15px;
+  padding: 15px;
+}
+#user {
+  margin-bottom: 20px;
+}
+#pass {
+  margin-bottom: 20px;
+}
+#sub {
+  padding: 5px;
+  margin: 5px;
+  background-color: yellowgreen;
+  color:pink;
+  border: none;
+}
+/* pseudo classes */
+#sub:hover {
+  color: black;
+}
+#sub:active{
+  color: brown;
+}
+#sub:focus{
+  color: orangered;
+}
+#sub:visited{
+  color: aqua;
+}
